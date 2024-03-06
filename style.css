@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+    background-color: white;
+}
+.ri-menu-line{
+    font-size: 24px;
+    margin-left: 24px;
+    align-items: center;
+}
+#nlogo{
+    margin: -15px 10px;
+    padding: 0px 0px;
+    height: 50px;
+    width: 120px;
+}
+#nleft{
+    justify-content: flex-start;
+}
+.ncenter{
+    margin-left: 50px;
+    width: 640px;
+    margin-top: -10px;
+}
+
+.search{
+    margin-right: 500px;
+    justify-content: center;
+}
+#text1{
+    border: 1px solid gray;
+    border-radius: 24px;
+    height: 40px;
+    width: 536px;
+}
+#searchicon{
+    font-size: 20px;
+    align-self: center;
+    margin-left: -45px;
+
+}
+#micbtn{
+    border: none;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    color: rgb(19, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 40px;
+}
+#micicon{
+    border-radius: 50%; 
+    width:32px;
+    font-size: 18px;
+}
+.nright{
+    margin-top: 0px;
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+    gap: 30px;
+}
+#videoicon{
+    font-size: 24px;
+}
+#bellicon{
+    font-size: 24px;
+}
+#profilebtn{
+    border: none;
+    border-radius: 50%;
+    color: rgb(19, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.sidebar{
+    position: fixed;
+    width: 250px;
+    overflow-y: scroll;
+    top: 72px;
+    bottom: 0;
+    scrollbar-width: thin;          
+    scrollbar-color: rgb(162, 162, 162) rgb(255, 255, 255);  
+}
+
+#btn1{  
+    display: inline-flex;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0px;
+    width: 92%;
+    border: none;
+    border-radius: 12px;
+    margin: 0px 8px;
+    text-align: left;
+    padding-left: 20px;
+}
+#btn1:hover{
+    background-color: rgb(240, 240, 240);
+    color: rgb(0, 0, 0);
+}
+.foot1{
+    margin: 10px 18px;
+}
+.foot1 a{
+    text-decoration: none;
+    margin-right: 5px;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+}
+footer{
+    margin: 15px 10px;
+}
+#Home{
+    margin-right: 20px;
+    font-size: 22px;
+}
+.shorts{
+    height: 24px;
+}
+.options{
+    position: fixed;
+    width: 82.5%;
+    display: flex;
+    top: 70px;
+    right: 0;
+    gap: 10px;
+    padding-bottom: 12px;
+    background-color: white;
+}
+#optbtn{
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 10px; 
+    background-color: rgb(242,242,242);
+}
+.main{
+    display: inline-table;
+    width: 82%;
+    margin-top: 120px;
+    margin-left: 270px;
+}
+.row1{
+    display: flex;
+}
+.row2{
+    margin-top: 25px;
+    display: flex;    
+}
+.row3{
+    margin-top: 25px;
+    display: flex;    
+}
+.row4{
+    margin-top: 25px;
+    display: flex;    
+}
+.row5{
+    margin-top: 25px;
+    display: flex;    
+}
+.row6{
+    margin-top: 25px;
+    display: flex;    
+}
+
+#main-img{
+    width: 391px;
+    height: 220px;
+    border-radius: 10px;
+}
+#head{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px;
+}
+#channel{
+    color: gray;
+    font-size: 14px;
+    font-weight: 500;
+}
+#time{
+    color: gray;
+    font-size: 14px;
+    font-weight: 500;
+}
